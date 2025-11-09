@@ -1,0 +1,41 @@
+body {
+    font-family: Serif, serif;
+    background-color: white;
+    font-size: 16px;
+}
+
+table {
+    text-align: center;
+    border-collapse: separate;
+    width: 800px;
+    table-layout: fixed;
+
+thead tr:nth-child(2) {
+    background-color: rgb(192, 192, 192);
+}
+tbody tr:nth-child(1) th:nth-child(1),thead tr:nth-child(1) {
+    background-color: rgb(105, 105, 105);
+    color: white;
+}
+
+}
+tbody th,
+tbody tr:nth-child(1) td:nth-child(3),
+tbody tr:nth-child(2) td:nth-child(3),
+tbody tr:nth-child(3) td:nth-child(4),
+tbody tr:nth-child(4) td:nth-child(5),
+tbody tr:nth-child(5) td:nth-child(6) {
+    background-color: rgb(192, 192, 192);
+}
+th, td {
+    border: 3px solid black;
+}
+td {
+    font-family: monospace;
+}
+#dobbelsteen {
+    font-size: 80px;
+}
+td {
+    padding: 10px;
+}
